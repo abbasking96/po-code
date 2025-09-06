@@ -1,9 +1,0 @@
-workflows:
-  android-workflow:
-    name: Android Kotlin Compose
-    max_build_duration: 60
-    scripts:
-      - name: Build Debug APK
-        script: ./gradlew assembleDebug
-    artifacts:
-      - app/build/outputs/**/*.apk
